@@ -3,13 +3,13 @@ import React from 'react'
 const Top_footer = () => {
   return (
     <>
-      <div className='wrapper h-[120px] text-[#2334D8] gap-5 sm:gap-40 content-center grid grid-cols-1 sm:grid-cols-2'>
+      <div className='wrapper h-[120px] text-[#2334D8] gap-5 content-center grid grid-cols-1 sm:grid-cols-2'>
         <div className='top_fotter grid gap-5 sm:gap-20  content-center grid-cols-1 sm:grid-cols-2'>
           <div><img src="/brand_name_2.png" alt="" /></div>
           <div><p className='text-center sm:text-left'>© 2019 Acheron Trading Ltd </p></div>
         </div>
 
-        <div className='ml-0 sm:ml-28 flex top_fotter justify-start sm:justify-end  gap-10 '>
+        <div className='ml-0 sm:ml-36 flex top_fotter justify-start gap-10 '>
           <a href=""><div>HOME</div></a>
           <a href=""><div>SERVICES</div></a>
           <a href=""><div>ABOUT</div></a>
