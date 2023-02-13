@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className=' bg-[#2334D8]'>
                 <header className=" wrapper flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full  text-sm py-4">
                     <nav
-                        className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+                        className="max-w-[85rem] w-full mx-auto sm:flex sm:items-center sm:justify-between"
                         aria-label="Global"
                     >
                         <div className="flex items-center justify-between">
@@ -49,7 +49,7 @@ const Navbar = () => {
                             id="navbar-primary"
                             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
                         >
-                            <div className="flex flex-col   gap-x-[50px] mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+                            <div className="flex flex-col  gap-5 sm:gap-none  gap-x-[50px] mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
                                 <a className="text-1xl sm:text-[20px]  font-medium text-white" href="#" aria-current="page">
                                     HOME
                                 </a>
@@ -59,13 +59,10 @@ const Navbar = () => {
                                 <a className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="#">
                                     SERVICES
                                 </a>
-                                <a
-                                    className="bg-[#35EABF] text-1xl sm:text-[20px] max-w-[150px] sm:max-w-none  inline-flex items-center rounded-full border border-indigo-600 px-8 py-3 text-blue hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring"
-                                    href="/download"
-                                >
-                                    <span className=" text-sm font-medium"> CONTACT US</span>
-
+                                <a className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="#">
+                                    CONTACT
                                 </a>
+
                             </div>
                         </div>
                     </nav>

@@ -11,9 +11,10 @@ const Footer_Banner = () => {
                     <h1 className='text-2xl mb-10 text-white sm:text-4xl font-medium'>Request a consultation today.</h1>
                     <input className='min-w-full sm:min-w-[10px] mb-10 bg-transparent text-white  outline-none border-b-2 border-solid border-[white]' type="text" placeholder='First Name' /> 
                     <input className='min-w-full sm:min-w-[10px] mb-10 ml-0 sm:ml-20 bg-transparent text-white outline-none border-b-2 border-solid border-[white]' type="text" placeholder='Last Name' /> <br />
-                    <input className='min-w-full sm:min-w-[10px] mb-10 bg-transparent text-white outline-none border-b-2 border-solid border-[white]' type="email" placeholder='Email' />
-                    <p className='mb-10 bg-transparent text-white max-w-[460px] border-b-2 border-solid border-[white]'>Company </p>
-                    <textarea className='min-w-full sm:min-w-[10px] sm:w-[460px]  bg-transparent text-white outline-none border-b-2 border-solid border-[white]' name="" id="" cols="30" placeholder='Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore necessitatibus dolores labore' rows="2"></textarea>
+                    <input className='min-w-full sm:min-w-[460px] mb-10 bg-transparent text-white outline-none border-b-2 border-solid border-[white]' type="email" placeholder='Email' />
+                    <input className='min-w-full sm:min-w-[460px] mb-10 bg-transparent text-white outline-none border-b-2 border-solid border-[white]' type="email" placeholder='Company' />
+                    
+                    <textarea className='min-w-full sm:min-w-[10px] sm:w-[460px]  bg-transparent text-white outline-none border-b-2 border-solid border-[white]' name="" id="" cols="30" placeholder='' rows="2"></textarea>
                     <br />
                     <a
                             className="my-10 inline-flex items-center rounded-full border border-indigo-600 px-8 py-3 text-blue hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring  bg-white"
