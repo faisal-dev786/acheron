@@ -10,10 +10,10 @@ const About_Banner = () => {
                         <h1 className='text-2xl sm:text-4xl text-white font-bold'>We Build Liquid Markets
                             for Digital Assets</h1>
                         <a
-                            className="mt-10 sm:mt-20 inline-flex items-center rounded-full border border-indigo-600 px-8 py-3 text-blue hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring  bg-white"
+                            className="transition-all duration-[0.3s] mt-10 sm:mt-20 inline-flex items-center rounded-full border border-indigo-600 px-8 py-3 text-blue hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring  bg-white"
                             href="/download"
                         >
-                            <span className="text-sm font-medium"> DISCOVER MORE</span>
+                            <span className=" text-sm font-medium"> DISCOVER MORE</span>
                             <svg
                                 className="ml-3 h-5 w-5"
                                 xmlns="http://www.w3.org/2000/svg"
