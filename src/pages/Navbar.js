@@ -1,4 +1,6 @@
-import React from 'react'
+import Link from 'next/link'
+
+
 
 const Navbar = () => {
     return (
@@ -50,18 +52,18 @@ const Navbar = () => {
                             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
                         >
                             <div className="flex flex-col  gap-5 sm:gap-none  gap-x-[50px] mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
-                                <a className="text-1xl sm:text-[20px]  font-medium text-white" href="#" aria-current="page">
+                                <Link className="text-1xl sm:text-[20px]  font-medium text-white" href="/" aria-current="page">
                                     HOME
-                                </a>
-                                <a className="text-1xl sm:text-[20px] font-medium text-gray-300 hover:text-white" href="#">
+                                </Link>
+                                <Link className="text-1xl sm:text-[20px] font-medium text-gray-300 hover:text-white" href="/About_Banner">
                                     ABOUT
-                                </a>
-                                <a className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="#">
+                                </Link>
+                                <Link className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="/Services">
                                     SERVICES
-                                </a>
-                                <a className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="#">
+                                </Link>
+                                <Link className="text-1xl sm:text-[20px]  font-medium text-gray-300 hover:text-white" href="/Contact">
                                     CONTACT
-                                </a>
+                                </Link>
 
                             </div>
                         </div>

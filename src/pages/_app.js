@@ -1,8 +1,15 @@
 import '@/styles/globals.css'
-import { useEffect } from 'react'
+import Navbar from "./Navbar"
+import Top_footer from "./Top_footer"
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    import('preline')
-  }, [])
-  return <Component {...pageProps} />
+
+  return <>
+
+    <Navbar />
+    <main className=''>
+      <Component {...pageProps} />
+    </main>
+    <Top_footer />
+
+  </>
 }

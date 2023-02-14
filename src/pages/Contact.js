@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer_Banner = () => {
+const Contact = () => {
     return (
         <>
             <div className="bg-[url('/footer_img2.png')] mb-[-10px] bg-center bg-no-repeat bg-cover h-[200px] w-[100%]">
@@ -44,4 +44,4 @@ const Footer_Banner = () => {
     )
 }
 
-export default Footer_Banner
+export default Contact

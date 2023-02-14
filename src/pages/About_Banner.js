@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = () => {
+const About_Banner = () => {
     return (
         <>
             <div className="bg-[url('/banner_Img.png')] bg-center bg-no-repeat bg-cover h-[400px] w-[100%] " >
@@ -43,4 +43,4 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default About_Banner

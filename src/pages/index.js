@@ -1,21 +1,19 @@
-import Banner from "@/components/Banner"
-import Navbar from "@/components/Navbar"
-import Services from "@/components/Services"
-import Relations from "@/components/Relations"
-import Banner2 from "@/components/Banner2"
-import Footer_Banner from "@/components/Footer_Banner"
-import Top_footer from "@/components/Top_footer"
+import About_Banner from "./About_Banner"
+import Services from "./Services"
+import Relations from "./Relations"
+import Banner2 from "./Banner2"
+
 
 const Index = () => {
   return (
     <>
-    <Navbar/>
-    <Banner/>
+    
+    <About_Banner/>
    <Services/>
    <Relations/>
    <Banner2/>
-   <Footer_Banner/>
-   <Top_footer/>
+
+
     </>
   
   )
